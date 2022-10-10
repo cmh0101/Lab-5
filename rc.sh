@@ -15,14 +15,18 @@ len=${#sequence}
 echo "Length: $len"
 
 #loop through sequence in reverse
-for (( i=$len; i>=0; i-- ))
-do
-    reverse="$reverse${sequence:$i:1}"
-done
+#for (( i=$len; i>=0; i-- ))
+#do
+#    reverse="$reverse${sequence:$i:1}"
+#done
 
-echo "$sequence
-$reverse
-"
+#echo "$sequence
+#$reverse
+#"
+
+# new one liner to convert sequence into the reverse complement
+reverse= `echo $sequence | rev | tr 'atcg' 'tagc'`
+
 
 #complement sequence
 rc=`echo $reverse | tr 'atcg' 'tagc'`
