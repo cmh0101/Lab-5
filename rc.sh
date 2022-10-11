@@ -4,7 +4,7 @@
 reverse=""
 
 #Check if the input filename is given in the command line - by Inass Ahmed
-## edited in the format used in the lab directions BW
+## edited in the format used in the lab directions - Brittany Whitt
 if[ $# -lt 1 ] || [ $# -gt 1 ]; then
   echo "Error! insert ONE file name"
 else
@@ -24,9 +24,9 @@ len=${#sequence}
 
 echo "Length: $len"
 
-#BW deleted the for loop and subsequent reverse command - are reolaced by the one liner below.
+#Brittany Whitt: deleted the for loop and subsequent reverse command - are reolaced by the one liner below.
 
-# new one liner to convert sequence into the reverse complement - started by BW
+# new one liner to convert sequence into the reverse complement - started by Brittany Whitt
 reverse= `echo $sequence | rev | tr 'atcg' 'tagc'`
 
 
