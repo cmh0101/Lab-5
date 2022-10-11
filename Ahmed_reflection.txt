@@ -1,0 +1,9 @@
+Reflect on how you currently manage your documents and code, particularly content associated with publishable work.
+Currently, I can make document my work with a README file that is publishable and help others to understand my work.
+Moreover, I learnt how to write a softcoded script that can run over mutliple different fasta files.
+
+
+
+Would it stand up to a reproducibility test? How do you think non-reproducibile research affects computational biology
+ and bioinformatics? What about in your specific field of study
+yes, it would stand up for a reproducibility test. I think it results in inability to integrate these fields in research, and hence wasting these useful and helpful tools. I guess in my field of study, reproducible research would save much time, result in accurate results, and bring more research ideas 
