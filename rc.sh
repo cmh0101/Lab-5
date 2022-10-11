@@ -3,6 +3,11 @@
 #initialize variable
 reverse=""
 
+#Check if the input filename is given in the command line - by Inass Ahmed
+if [ $# -lt 1 ]; then
+echo "Error! insert a file name"
+fi
+
 #read in data
 name=`grep ">" $1`
 sequence=`grep -v ">" $1`
