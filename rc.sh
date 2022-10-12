@@ -5,7 +5,7 @@ reverse=""
 
 #Check if the input filename is given in the command line - by Inass Ahmed
 ## edited in the format used in the lab directions - Brittany Whitt
-if[ $# -lt 1 ] || [ $# -gt 1 ]; then
+if [ $# -lt 1 ] || [ $# -gt 1 ]; then
   echo "Error! insert ONE file name"
 else
   echo "Correctly have one file on the command line."
